@@ -15,6 +15,8 @@ All scripts necessary to (1) repeat the simulation study and (2) summarize simul
 <ins> **This repository contains the following data files (folder R)** </ins>:
 
 *Likelihood and other functions.R*: likelihood functions to be maximized for all four versions of the temporal scale model described in the manuscript, plus helper functions used in the simulation
+
 *Simulation script.R*: R script to implement simulation study
+
 *Simulation summary.R*: R script to summarize simulation output
 
