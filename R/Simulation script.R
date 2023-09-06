@@ -53,8 +53,8 @@ for (i in 1:tt){
 alpha0<-0 #intercept p, logit scale
 K<-3 #secondary occasions
 
-#number of simulations per scenario, ran up to 100
-nsim=10
+#number of simulations per scenario
+nsim=100
 
 # manually set model type for which to run simulation, out of
 # 'Poisson', 'LogReg', 'Occu', 'Nmix'
@@ -155,8 +155,6 @@ for (k in 1:n.scen){ ##scenario loop
       ##generate detection data
       y<-matrix(rbinom(J.in[k]*K, rep(Z, each=K), plogis(alpha0)),
                 J.in[k], K, byrow=T)
-      ##format for likelihood function
-      nd <- ifelse(rowSums(y, na.rm = TRUE) == 0, 1, 0)
       
       ##fit model
       o1 <- try(optim(c(log(sig.in[k]), 0, 0, 0, 0), nll.occ, 

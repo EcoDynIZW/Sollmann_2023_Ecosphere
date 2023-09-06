@@ -54,7 +54,7 @@ for (i in 1:tt){
 alpha0<-0 #intercept p, logit scale
 K<-3 #secondary occasions
 
-#number of simulations per scenario, ran up to 100
+#number of simulations per scenario
 nsim=100
 
 # manually set model type for which to summarize simulation, out of

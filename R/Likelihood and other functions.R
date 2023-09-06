@@ -1,9 +1,9 @@
 ###############################################################################
 ### Functions used in simulation ##############################################
 
-#### Hlepr functions used in simulation stud presented in:
+#### Helper functions used in simulation study presented in:
 #### Sollmann, R., "Estimating the temporal scale of lagged 
-#### responses in species abundance and occurrence", Ecosphere (in press).
+#### responses in species abundance and occurrence", Ecosphere (accepted).
 #### For background/details, please see publication
 
 
