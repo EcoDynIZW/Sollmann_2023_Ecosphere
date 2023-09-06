@@ -4,7 +4,7 @@
 All scripts necessary to (1) repeat the simulation study and (2) summarize simulation output numerically and graphically. For details, see main text of publication.
 
 ## DOI repository
-
+https://doi.org/10.5281/zenodo.8321102
 
 ## DOI publication
 
