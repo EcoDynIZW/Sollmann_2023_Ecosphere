@@ -1,6 +1,11 @@
 ###############################################################################
 ### summarize simulation results for time scale model #########################
 
+#### Script to summarize simulation study presented in: 
+#### Sollmann, R., "Estimating the temporal scale of lagged 
+#### responses in species abundance and occurrence", Ecosphere (in press).
+#### For background/details, please see publication
+
 ## packages for plots only
 library(reshape2)
 library(ggplot2)

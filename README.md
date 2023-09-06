@@ -1,2 +1,20 @@
-# TempScale
-This repository contains R code associated with the submitted manuscript "Estimating the temporal scale of lagged responses in species abundance and occurrence" (Sollmann, R., Ecosphere). The script 'Likelihood and other functions.R' contains the novel likelihood functions used to fit the four versions of the temporal scale model described in the manuscript. The 'Simulation script.R' runs the main simulation scenarios presented in the manuscript; it does not, in itself, contain novel code. Neither does the 'Simulation summary.R' script, which can be used to summarize simulations with respect to bias and precision of model estimates and recreate the two main figures.           
+# R scripts for "Estimating the temporal scale of lagged responses in species abundance and occurrence", Sollmann, Ecosphere (accepted)
+---
+
+All scripts necessary to (1) repeat the simulation study and (2) summarize simulation output numerically and graphically. For details, see main text of publication.
+
+## DOI repository
+
+
+## DOI publication
+
+
+
+## Description of the data and file structure
+
+<ins> **This repository contains the following data files (folder R)** </ins>:
+
+*Likelihood and other functions.R*: likelihood functions to be maximized for all four versions of the temporal scale model described in the manuscript, plus helper functions used in the simulation
+*Simulation script.R*: R script to implement simulation study
+*Simulation summary.R*: R script to summarize simulation output
+

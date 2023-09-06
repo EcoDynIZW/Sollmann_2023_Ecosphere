@@ -1,6 +1,12 @@
 ###############################################################################
 ### Functions used in simulation ##############################################
 
+#### Hlepr functions used in simulation stud presented in:
+#### Sollmann, R., "Estimating the temporal scale of lagged 
+#### responses in species abundance and occurrence", Ecosphere (in press).
+#### For background/details, please see publication
+
+
 ## Function to generate correlated variable - 
 ## adapted from Chandler & Hepinstall-Cymerman, 2016,
 ## Supplementary Material 1; doi.org/10.1007/s10980-016-0380-z

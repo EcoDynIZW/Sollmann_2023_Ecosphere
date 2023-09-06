@@ -1,8 +1,10 @@
 ################################################################################
 #### Simulating and analyzing data under temporal scale model ##################
 
-#### For background, see Sollmann, R., "Estimating the temporal scale of lagged 
-#### responses in species abundance and occurrence", Biosphere
+#### Script to repeat the simulation study presented in: 
+#### Sollmann, R., "Estimating the temporal scale of lagged 
+#### responses in species abundance and occurrence", Ecosphere (in press).
+#### For background/details on parameters, please see publication
 
 ##load likelihood, helper functions
 source('Likelihood and other functions.R')
